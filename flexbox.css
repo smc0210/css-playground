@@ -15,3 +15,6 @@
     font-size:50px;
     color: #fff;
 }
+.box:first-child {
+    align-self: flex-end;
+}
