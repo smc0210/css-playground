@@ -1,6 +1,9 @@
 .container{
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center; /* <-- main axis */
+    align-items: center; /* <-- cross axis */
+    height: 100vh;
 }
 .box {
     width: 300px;
