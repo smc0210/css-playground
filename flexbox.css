@@ -1,7 +1,7 @@
 .container{
     display:flex;
     flex-wrap:wrap;
-    justify-content: center;
+    justify-content: space-between;
     height: 100vh;
 }
 .box {
@@ -16,5 +16,5 @@
     color: #fff;
 }
 .box:first-child {
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
